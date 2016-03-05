@@ -1,0 +1,69 @@
+TASK com.example.stand id=85
+  ACTIVITY com.example.stand/.MainActivity 1b39fee7 pid=17726
+    Local FragmentActivity 12dd76f8 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 2d1dc297:
+      #0: SupportMapFragment{1ec00c84 #0 id=0x7f0c007f}
+        mFragmentId=#7f0c007f mContainerId=#ffffffff mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=true mInLayout=true
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{2d1dc297 in HostCallbacks{dadbc6d}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@dadbc6d
+        mView=android.widget.FrameLayout{2bb0a0a2 V.E...C. ........ 0,0-1080,1677 #7f0c007f app:id/map}
+        mInnerView=android.widget.FrameLayout{2bb0a0a2 V.E...C. ........ 0,0-1080,1677 #7f0c007f app:id/map}
+        Child FragmentManager{a71f133 in SupportMapFragment{1ec00c84}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@dadbc6d
+            mContainer=android.support.v4.app.Fragment$1@2a736cf0
+            mParent=SupportMapFragment{1ec00c84 #0 id=0x7f0c007f}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: SupportMapFragment{1ec00c84 #0 id=0x7f0c007f}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@dadbc6d
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@dadbc6d
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{2ff6b269 V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{3c9c24ee V.E..... ... 0,0-1080,1920}
+          android.view.ViewStub{1fd06d8f G.E..... ... 0,0-0,0 #102037a}
+          android.widget.FrameLayout{18ba681c V.E..... ... 0,75-1080,1920}
+            android.support.v7.widget.ActionBarOverlayLayout{34bf0c25 V.E..... ... 0,0-1080,1845 #7f0c0066 app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{34a9a1fa V.E..... ... 0,168-1080,1845 #1020002 android:id/content}
+                android.support.v4.widget.DrawerLayout{1cf053ab VFE..... F.. 0,0-1080,1677 #7f0c007e app:id/drawer_layout}
+                  android.widget.RelativeLayout{2d13ea08 V.E..... ... 0,0-1080,1677}
+                    android.widget.FrameLayout{2bb0a0a2 V.E...C. ... 0,0-1080,1677 #7f0c007f app:id/map}
+                      android.widget.FrameLayout{cf945a1 V.E..... ... 0,0-1080,1677}
+                        com.google.maps.api.android.lib6.gmm6.c.y{34dfe3c6 VFED..C. ... 0,0-1080,1677}
+                        android.widget.RelativeLayout{2bde7f87 V.E..... ... 0,0-1080,1677}
+                          android.widget.ImageView{22019eb4 V.ED.... ... 15,1596-195,1662}
+                          android.widget.TextView{2c439add G.ED.... ... 0,0-0,0}
+                        android.widget.RelativeLayout{15e67652 V.E..... ... 0,0-1080,1677}
+                          android.widget.ImageView{20998d23 G.ED.... ... 0,0-0,0 #2}
+                          android.widget.RelativeLayout{3673f220 V.E..... ... 1050,30-1050,1647 #3}
+                            com.google.maps.api.android.lib6.e.n{1c28735f G.ED..C. ... 0,0-0,0}
+                          android.widget.LinearLayout{27e407d9 G.E..... ... 0,0-0,0 #1}
+                            android.widget.ImageView{2151a59e V.ED..C. ... 0,0-0,0}
+                            android.widget.ImageView{66dd87f V.ED..C. ... 0,0-0,0}
+                          android.widget.LinearLayout{25f6104c V.E..... ... 806,1504-1050,1632 #4}
+                            android.widget.ImageView{9844895 G.ED..C. ... 0,0-0,0}
+                            android.widget.ImageView{13ae7daa V.ED..C. ... 0,0-122,128}
+                            android.widget.ImageView{27117d9b V.ED..C. ... 122,0-244,128}
+                          com.google.maps.api.android.lib6.e.eh{3799e538 I.ED..C. ... 30,30-150,150 #5}
+                  android.widget.ListView{11add911 IFED.VC. ... -600,0-0,1677 #7f0c0080 app:id/navList}
+                    android.support.v7.widget.AppCompatTextView{334eca76 V.ED.... ... 0,0-600,144 #1020014 android:id/text1}
+                    android.support.v7.widget.AppCompatTextView{27805877 V.ED.... ... 0,146-600,290 #1020014 android:id/text1}
+                    android.support.v7.widget.AppCompatTextView{fa41ce4 V.ED.... ... 0,292-600,436 #1020014 android:id/text1}
+                    android.support.v7.widget.AppCompatTextView{2605f54d V.ED.... ... 0,438-600,582 #1020014 android:id/text1}
+                    android.support.v7.widget.AppCompatTextView{7d51802 V.ED.... ... 0,584-600,728 #1020014 android:id/text1}
+              android.support.v7.widget.ActionBarContainer{16980513 V.ED.... ... 0,0-1080,168 #7f0c0067 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{2ff82350 V.E..... ... 0,0-1080,168 #7f0c0068 app:id/action_bar}
+                  android.widget.TextView{27499949 V.ED.... ... 180,43-332,125}
+                  android.widget.ImageButton{3e80b24e VFED..C. ... 0,0-168,168}
+                  android.support.v7.widget.ActionMenuView{973df6f V.E..... ... 960,0-1080,168}
+                    android.support.v7.widget.ActionMenuPresenter$OverflowMenuButton{1344247c VFED..C. ... 0,12-120,156}
+                android.support.v7.widget.ActionBarContextView{2b098105 G.E..... ... 0,0-0,0 #7f0c0069 app:id/action_context_bar}
+        android.view.View{739a55a V.ED.... ... 0,0-1080,75 #102002f android:id/statusBarBackground}
